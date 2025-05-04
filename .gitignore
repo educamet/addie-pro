@@ -1,0 +1,15 @@
+# Ignorer les dépendances node
+node_modules/
+
+# Ignorer les fichiers de build
+dist/
+
+# Ignorer les fichiers de cache
+.vite/
+
+# Ignorer les fichiers de configuration locaux
+.env
+.env.local
+
+# Ignorer les fichiers de lock (optionnel, selon votre préférence)
+# package-lock.json

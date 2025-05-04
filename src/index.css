@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .no-print {
+    display: none;
+  }
+  .bg-gray-50,
+  .bg-gray-100 {
+    background: white;
+  }
+  .shadow-sm {
+    box-shadow: none;
+  }
+  .border {
+    border-color: #e5e7eb;
+  }
+}

@@ -1,0 +1,12 @@
+# Normaliser les fins de ligne pour tous les fichiers texte
+* text=auto
+
+# Forcer LF pour les fichiers JavaScript, JSX, CSS, JSON
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+
+# Forcer CRLF pour les fichiers Windows spécifiques
+*.bat text eol=crlf
+*.cmd text eol=crlf
